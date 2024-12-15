@@ -13,10 +13,20 @@ ol {
     padding-left: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 320px;
     margin: 0 auto;
     padding: 0 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
 }
 
 .mobile-tablet-menu {
